@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(176, 232, 148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 2px 2px grey;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:lightgreen;
+    width:500px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgb(87, 82, 82);
+    border-radius: 10px;
+}
+.quote{
+    font-family:cursive ;
+}
+.btn{
+    background-color: blanchedalmond;
+    cursor: pointer;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(175, 244, 161);
+}
